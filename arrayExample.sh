@@ -2,11 +2,9 @@
 
 cnt=0;
 
-fruits[$cnt]="Mango";
-((cnt++));
-fruits[$cnt]="Grapes";
-((cnt++));
-fruits[$cnt]="Orange";
+fruits[((cnt++))]="Mango";
+fruits[((cnt++))]="Grapes";
+fruits[((cnt++))]="Orange";
 
 echo "All elements of an array : " ${fruits[@]};
 
